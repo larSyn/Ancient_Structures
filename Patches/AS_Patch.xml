@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>    
+
+	<!--========== Ancient Concrete Barrier Patch ==========-->
+		
+	<Operation Class="PatchOperationSequence">
+	    <success>Always</success>
+		<operations>
+	    	<li Class="ModCheck.FindFile">
+                <modName>Core</modName>
+                <file>Buildings_Ancient.xml</file>
+            </li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "AncientConcreteBarrier"]</xpath>
+				<value>
+					<designationCategory>Structure</designationCategory>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>
