@@ -90,9 +90,6 @@
 				<edgeRight>Damage/Edge</edgeRight>
 			</damageData>
 		</graphicData>
-    	<blueprintGraphicData>
-      		<texPath>Things/Building/AS_stoneWall_blueprint_atlas</texPath>
-    	</blueprintGraphicData>
 		<uiIconPath>UI/Icons/AS_stoneWall_icon</uiIconPath>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -121,6 +118,9 @@
 		<canOverlapZones>true</canOverlapZones>
 		<building>
 			<isInert>true</isInert>
+    		<blueprintGraphicData>
+      			<texPath>Things/Building/AS_stoneWall_blueprint_atlas</texPath>
+    		</blueprintGraphicData>
 		</building>
 		<damageMultipliers>
 			<li>
@@ -171,7 +171,6 @@
 	      	<WoodLog>20</WoodLog>
 	      	<Steel>10</Steel>
 	    </costList>
-	    <soundImpactDefault>BulletImpactGround</soundImpactDefault>
 	    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 	    <resourcesFractionWhenDeconstructed>0.5</resourcesFractionWhenDeconstructed>
 	    <placeWorkers>
@@ -242,9 +241,8 @@
     	</stuffCategories>
     	<costStuffCount>15</costStuffCount>
 	    <costList>
-	      	<WoodLog>20</WoodLog> <!-- just the intial wood -->
+	      	<WoodLog>20</WoodLog> <!-- the intial wood & maintenance -->
 	    </costList>
-	    <soundImpactDefault>BulletImpactGround</soundImpactDefault>
 	    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 	    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
 	    <placeWorkers>
@@ -283,9 +281,9 @@
 	    <hasInteractionCell>True</hasInteractionCell>
 	    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
 	    <recipes>
-		      <li>CookMealSimpleCampfire</li>
-		      <li>MakePemmicanCampfire</li>
-		      <li>BurnApparelCampfire</li>
+		      <li>CookMealSimple</li>
+		      <li>Make_Pemmican</li>
+		      <li>BurnApparel</li>
 		      <li>BurnDrugs</li>
 	    </recipes>
 	    <inspectorTabs>
