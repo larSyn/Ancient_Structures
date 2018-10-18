@@ -12,6 +12,12 @@
 					<designationCategory>Structure</designationCategory>
 				</value>
 			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "AncientConcreteBarrier"]/statBases/Beauty</xpath>
+				<value>
+					<Beauty>1</Beauty>
+				</value>
+			</li>
 		</operations>
 	</Operation>
 
