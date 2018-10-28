@@ -189,6 +189,7 @@
 		        <fuelFilter>
 	          		<thingDefs>
 	            		<li>WoodLog</li>
+	            		<li>Chemfuel</li>
 	          		</thingDefs>
 	        	</fuelFilter>
 	        	<destroyOnNoFuel>false</destroyOnNoFuel>
@@ -198,10 +199,11 @@
 	        	<glowColor>(252,187,113,0)</glowColor>
 	      	</li>
 	      	<li Class="CompProperties_HeatPusher">
+	      		<compClass>CompHeatPusherPowered</compClass>
 	        	<heatPerSecond>3.5</heatPerSecond>
 	        	<heatPushMaxTemperature>23</heatPushMaxTemperature>
 	      	</li>
-      		<li Class="AncientStructures.AS_CompProperties_FireOverlay">
+      		<li Class="CompProperties_FireOverlay">
         		<fireSize>0.8</fireSize>
         		<offset>(0,0,1.4)</offset>
       		</li>
@@ -269,10 +271,11 @@
 	        	<glowColor>(252,187,113,0)</glowColor>
 	      	</li>
 	      	<li Class="CompProperties_HeatPusher">
+	      		<compClass>CompHeatPusherPowered</compClass>
 	        	<heatPerSecond>21</heatPerSecond>
 	        	<heatPushMaxTemperature>28</heatPushMaxTemperature>
 	      	</li>
-	      	<li Class="AncientStructures.AS_CompProperties_FireOverlay">
+	      	<li Class="CompProperties_FireOverlay">
 	        	<fireSize>1</fireSize>
         		<offset>(0,0,0.25)</offset>
 	      	</li>
